@@ -1,10 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 
+const Title = () => {
+    return <h1>Hello React.js</h1>
+}
+
 const App = () => {
     return (
         <div>
-            <h1>Hello React.js</h1>
+            <Title />
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Eligendi tenetur consequatur cumque assumenda, excepturi, labore
