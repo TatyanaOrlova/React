@@ -7,21 +7,29 @@ const Title = () => {
 
 const Content = () => {
     return (
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-            tenetur consequatur cumque assumenda, excepturi, labore velit sint
-            molestias corrupti tempore vel aperiam dolorem dolore ab minima, nam
-            animi eaque minus.
-        </p>
+        <React.Fragment>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Eligendi tenetur consequatur cumque assumenda, excepturi, labore
+                velit sint molestias corrupti tempore vel aperiam dolorem dolore
+                ab minima, nam animi eaque minus.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe
+                distinctio facilis suscipit, blanditiis reprehenderit unde quae
+                at ipsum possimus atque quis, fuga explicabo corporis soluta
+                impedit officiis dolores a earum.
+            </p>
+        </React.Fragment>
     )
 }
 
 const App = () => {
     return (
-        <div>
+        <React.Fragment>
             <Title />
             <Content />
-        </div>
+        </React.Fragment>
     )
 }
 
