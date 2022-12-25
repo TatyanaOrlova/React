@@ -6,7 +6,7 @@ type TitleProps = {
     text?: string
 }
 
-const Title = ({ title, text }: TitleProps) => {
+const Title = ({ title, text = 'TEST' }: TitleProps) => {
     return (
         <h1>
             {text} {title}
