@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 
-function App() {
+const App = () => {
     return (
         <div>
             <h1>Hello React.js</h1>
